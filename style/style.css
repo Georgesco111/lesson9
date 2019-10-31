@@ -1,0 +1,152 @@
+.logo{
+	width: 200px;
+	margin-left:100px;
+
+}
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.navbar{
+	display: flex;
+
+}
+.navbar-ul{
+	display: flex;
+	line-height: 65px;
+
+}
+.navbar-li{
+	margin-left: 18px;
+
+}
+.navbar-a{
+	font-size: 24px;
+	color: #3D58A6;
+}
+.navbar-li:nth-child(3) .navbar-a{
+	color: #CED3DD;
+}
+.social-ul{
+	display: flex;
+	justify-content: flex-end;
+}
+.social-li{
+	margin-right: 2em;
+	position: relative;
+}
+
+.social-li:after{
+	content: "";
+	display: block;
+	height: 30px;
+	width: 1px;
+	background-color: blue;
+	position: absolute;
+	right: -15px;
+	top: 0;
+}
+.social-li:last-child:after{
+	display: none;
+}
+.logo1{
+	height:30px;
+}
+.about{
+	width: 100%;
+	height: 90px;
+	background-color: red;
+}
+.pagetittle{
+	width: 100%;
+	height: 90px;
+	background-color: #EE4036;
+	display: flex;
+	align-items: center;
+	padding-left: 100px;
+
+}
+.pagetittle{
+	color: white;
+	font-size: 22px;
+
+}
+.about-item .image{
+	border: 1px solid red;
+	padding: 30px;
+
+}
+
+.about-item .image img {
+	width: 200px;
+}
+
+.about-item:nth-child(2) .image{
+	padding: 85px;
+}
+
+
+
+.about-us{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 100px;
+}
+.satauri{
+	color: #EE4036;
+}
+.p1{
+	color: #58595B;
+}
+.line:after{
+	content: "";
+	display: block;
+	width: 100%;
+	height: 2px;
+	background-color: red;
+}
+.team p {
+	color: red;
+	/*margin-left: 100px;*/
+	font-size: 25px;
+}
+.teamman img{
+	height: 180px;
+}
+.teamman{
+	position: relative;
+	margin-top: 50px;
+}
+.p2 {
+	position: absolute;
+	top: 61px;
+    left: -61px;
+}
+.teamman p:last-child{
+	color: black;
+	font-size: 22px;
+}
+.team:last-child{
+	margin-right: 200px;
+}
+.team{
+
+	display: flex;
+	align-items: space-between;
+	justify-content: space-between;
+
+}
+/*.go-back{
+	margin-top: 200px;
+	height: 90px;
+	width: 100%;
+	background-color: #BDCCD4;
+	display: flex;
+	align-items: center;
+}
+.go-back a{
+	color: white;
+	font-size: 22px;
+}*/
